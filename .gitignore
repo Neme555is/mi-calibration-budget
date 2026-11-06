@@ -1,0 +1,6 @@
+results/
+__pycache__/
+*.pyc
+# third-party files downloaded by the user (not redistributed)
+calibration_budget/backbones/external/conformer.py
+calibration_budget/backbones/external/lmda_model.py

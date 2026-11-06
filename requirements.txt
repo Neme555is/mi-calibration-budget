@@ -1,0 +1,15 @@
+# Versions used for the paper (Python 3.10, Windows 11, one NVIDIA RTX 5070 Ti, CUDA 13.0).
+# Install PyTorch for your CUDA version from https://pytorch.org first.
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+torch==2.11.0
+mne==1.12.1
+moabb==1.5.0
+pandas==2.3.3
+geoopt==0.5.1        # Riemannian Adam (TSMNet)
+skorch==1.4.0        # imported by the TSMNet batch-norm module
+einops==0.8.2        # CTNet, EEG Conformer
+matplotlib==3.10.8
+# Optional: torchsummary (imported by the upstream LMDA-Net file; see
+# calibration_budget/backbones/external/README.md)
